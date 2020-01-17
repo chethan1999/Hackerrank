@@ -1,0 +1,40 @@
+
+
+    public static String getSmallestAndLargest(String s, int k) {
+        String smallest = "";
+        String largest = "";
+        
+        //String a[] = new String[1000];
+        int start = 0;
+        int end = k;
+        //List<String> l = new List<String>();
+        String curr = s.substring(start,end);
+        smallest = curr;
+        largest = curr;
+
+        for(int i=k;i<s.length();i++)
+        {
+            curr = curr.substring(1,k)+s.charAt(i);
+            if(smallest.compareTo(curr)>0)
+            {
+                smallest = curr;
+            }
+            if(largest.compareTo(curr)<0)
+            {
+                largest = curr;
+            }
+        }
+        // Complete the function
+        // 'smallest' must be the lexicographically smallest substring of length 'k'
+        // 'largest' must be the lexicographically largest substring of length 'k'
+        
+        return smallest + "\n" + largest;
+    }
+
+Input (stdin)
+    welcometojava
+    3
+
+Expected Output
+    ava
+    wel
