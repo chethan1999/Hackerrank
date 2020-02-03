@@ -49,7 +49,7 @@ public class Solution {
         System.out.println( (ret) ? "Anagrams" : "Not Anagrams" );
     }
 }
-
+/*
 output:
 Input (stdin)
     anagramm
@@ -60,3 +60,4 @@ Your Output (stdout)
 
 Expected Output
     Not Anagrams
+*/
