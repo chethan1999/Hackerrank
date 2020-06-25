@@ -1,4 +1,4 @@
-You are given a phone book that consists of people's names and their phone number. After that you will be given some person's name as query. For each query, print the phone number of that person.
+/*You are given a phone book that consists of people's names and their phone number. After that you will be given some person's name as query. For each query, print the phone number of that person.
 
 Input Format
 
@@ -38,7 +38,7 @@ uncle sam=99912222
 Not found
 harry=12299933
 
-Code:
+Code:*/
 //Complete this code or write your own from scratch
 import java.util.*;
 import java.io.*;
